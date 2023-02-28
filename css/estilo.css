@@ -1,4 +1,11 @@
+.nav-link:hover{
+  color:rgba(0,140,168);
+}
 
+.navbar-brand{
+  font-weight: 500;
+  font-size: 30px;
+}
 
 /*CABECERA*/
 .fondo-cabecera{
