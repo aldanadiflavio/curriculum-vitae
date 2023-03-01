@@ -175,6 +175,61 @@ box-shadow: 6px 6px 14px -7px rgba(0,0,0,0.75);
   transform: rotateY(180deg);
 }
 
+/*SECCION EDUCACION*/
+.seccion-educacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.columna-left, .columna-right {
+  width: 45%;
+}
+
+.divisor-vertical {
+  width: 10px;
+  height: 100%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.columna-left h2, .columna-right h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.columna-left p, .columna-right p {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.columna-left p:last-child, .columna-right p:last-child {
+  margin-bottom: 0;
+}
+
+
+/*boton para volver arriba*/
+.scroll-top {
+  z-index:9999;
+  position:fixed; 
+  bottom:2.5%;
+  right:4%;
+}
+.scroll-top i {
+  color:#fff;
+  -moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50px;
+	text-align:center;
+	font-size:20px;
+  background-color: #999;
+  padding: 10px 12px 14px;
+}
+.scroll-top i:hover {
+  background-color:#000;
+}
+
 /*RESPONSIVE*/
 
 @media (min-width: 992px) {
@@ -190,10 +245,7 @@ box-shadow: 6px 6px 14px -7px rgba(0,0,0,0.75);
     font-size: 1.5rem;
   }
 
-  .seccion{
-    font-size: 3rem;
-    line-height: 2.5rem;
-  }
+  
 
 
 }
